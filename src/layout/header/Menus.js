@@ -45,7 +45,7 @@ export const DaskTopMenusMenus = () => {
         <ul className="sub-menu">
           {" "}
           <li>
-            <Link legacyBehavior href="about">
+            <Link legacyBehavior href="/about">
               About Us
             </Link>
           </li>{" "}
@@ -60,7 +60,7 @@ export const DaskTopMenusMenus = () => {
             </Link>
           </li>{" "} */}
           <li>
-            <Link legacyBehavior href="team">
+            <Link legacyBehavior href="/team">
               Our Team
             </Link>
           </li>{" "}
@@ -74,11 +74,11 @@ export const DaskTopMenusMenus = () => {
               Portfolio Details
             </Link>
           </li>{" "} */}
-          <li>
+          {/* <li>
             <Link legacyBehavior href="404">
               404
             </Link>
-          </li>{" "}
+          </li>{" "} */}
           {/* <li>
             <Link legacyBehavior href="contact">
               Contact Us
@@ -87,7 +87,7 @@ export const DaskTopMenusMenus = () => {
         </ul>
       </li>{" "}
       <li>
-        <a href="#">
+        <a href="/service">
           Services{" "}
           {/* <span>
             <i className="fas fa-angle-down" />
@@ -108,12 +108,12 @@ export const DaskTopMenusMenus = () => {
         </ul> */}
       </li>{" "}
       <li>
-        <Link legacyBehavior href="portfolio">
+        <Link legacyBehavior href="/portfolio">
           Portfolio
         </Link>
       </li>{" "}
       <li>
-        <a href="#">
+        <a href="/blog-grid">
           Blog{" "}
           {/* <span>
             <i className="fas fa-angle-down" />
@@ -144,7 +144,7 @@ export const DaskTopMenusMenus = () => {
         </ul> */}
       </li>{" "}
       <li>
-        <Link legacyBehavior href="contact">
+        <Link legacyBehavior href="/contact">
           Contact
         </Link>
       </li>

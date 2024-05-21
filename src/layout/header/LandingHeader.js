@@ -75,25 +75,25 @@ const LandingHeader = () => {
               <nav className="consen_menu">
                 <ul className="nav_scroll">
                   <li>
-                    <a href="#home">Home</a>
+                    <a href="/home">Home</a>
                   </li>
                   <li>
-                    <a href="#about">About</a>
+                    <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="#service">Services </a>
+                    <a href="/service">Services </a>
                   </li>
                   <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="/portfolio">Portfolio</a>
                   </li>
                   <li>
-                    <a href="#team">Team</a>
+                    <a href="/team">Team</a>
                   </li>
                   <li>
-                    <a href="#blog">Blog</a>
+                    <a href="/blog">Blog</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
 
