@@ -186,8 +186,8 @@ const Footer1 = () => {
             <div className="col-md-4">
               <div className="consen-logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_thumb" title="consen">
-                    <img src="assets/images/logo.png" alt="logo" />
+                  <a className="logo_thumb" title="Enfotrix">
+                    <img src="assets/images/Logo8.png" alt="logo" />
                   </a>
                 </Link>
               </div>
@@ -196,7 +196,7 @@ const Footer1 = () => {
               <div className="footer-bottom-content">
                 <div className="footer-bottom-content-copy">
                   <p>
-                    © 2023 <span>Consen</span> all rights reserved. Design By
+                    © 2023 <span>Enfotrix</span> all rights reserved. Design By
                     Dream-IT.
                   </p>
                 </div>

@@ -9,13 +9,13 @@ const DefaultHeader = () => {
           <div className="col-lg-3">
             <div className="logo">
               <Link legacyBehavior href="/">
-                <a className="logo_img" title="consen">
-                  <img src="assets/images/logo.png" alt="logo" />
+                <a className="logo_img" title="enfotrix">
+                  <img src="assets/images/Logo8.png" alt="logo" />
                 </a>
               </Link>
               <Link legacyBehavior href="/">
-                <a className="main_sticky" title="consen">
-                  <img src="assets/images/logo.png" alt="logo" />
+                <a className="main_sticky" title="enfotrix">
+                  <img src="assets/images/Logo8.png" alt="logo" />
                 </a>
               </Link>
             </div>

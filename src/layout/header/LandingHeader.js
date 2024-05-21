@@ -10,7 +10,7 @@ const LandingHeader = () => {
             <div className="col-lg-8 col-sm-8">
               <div className="header_top_menu_address">
                 <div className="header_top_menu_text">
-                  <p>Welcome! to Consen Finance Consultant.</p>
+                  <p>Welcome! to Enfotrix Finance Consultant.</p>
                 </div>
               </div>
             </div>
@@ -49,10 +49,10 @@ const LandingHeader = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen Header Top Menu Area Css */}
+      {/* End Enfotrix Header Top Menu Area Css */}
       {/*===================================================*/}
       {/*==================================================*/}
-      {/* Start consen Main Menu Area */}
+      {/* Start Enfotrix Main Menu Area */}
       {/*==================================================*/}
       <div id="sticky-header" className="consen_nav_manu style-two header____">
         <div className="container">
@@ -60,12 +60,12 @@ const LandingHeader = () => {
             <div className="col-lg-3">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_img" title="consen">
+                  <a className="logo_img" title="Enfotrix">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
                 <Link legacyBehavior href="/">
-                  <a className="main_sticky" title="consen">
+                  <a className="main_sticky" title="Enfotrix">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
@@ -139,7 +139,7 @@ const LandingHeader = () => {
                 <div className="content-inner">
                   <div className="nav-logo">
                     <a href="index.html">
-                      <img src="assets/images/logo.png" alt="logo" />
+                      {/* <img src="assets/images/logo.png" alt="logo" /> */}
                     </a>
                   </div>
                   <div className="content-box">

@@ -40,13 +40,13 @@ const Index = () => {
                   </Link>
                 </div>
                 <div className="slider-contact-box">
-                  <a className="contact-icon" href="tel:+983217690326">
+                  <a className="contact-icon" href="tel:+92 327 8700060">
                     <img src="assets/images/slider/call.png" alt="call icon" />
                   </a>
                   <div className="contact-number">
                     <span> Call Everyday </span>
                     <h3>
-                      <a href="tel:+983217690326">+98 321 (7690) 326</a>{" "}
+                      <a href="tel:+92 327 8700060">+92 327 8700060</a>{" "}
                     </h3>
                   </div>
                 </div>

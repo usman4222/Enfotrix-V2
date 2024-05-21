@@ -15,7 +15,12 @@
     }
 }
 
-
+a.logo_img img {
+    width: 80%;
+}
+a.main_sticky img {
+    width: 80%;
+}
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
     a.logo_img img {

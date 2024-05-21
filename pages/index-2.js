@@ -1222,7 +1222,7 @@ const Index2 = () => {
                   <i className="bi bi-telephone-inbound" />
                 </a>
                 <div className="subscribe-title2">
-                  <h1> +98 376 (2890) 100 </h1>
+                  <h1> +92 327 8700060 </h1>
                   <p> example@gmail.com </p>
                 </div>
               </div>

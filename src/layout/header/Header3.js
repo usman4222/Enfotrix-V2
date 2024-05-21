@@ -58,12 +58,12 @@ const Header3 = () => {
             <div className="col-lg-3">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_img" title="consen">
+                  <a className="logo_img" title="Enfotrix">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
                 <Link legacyBehavior href="/">
-                  <a className="main_sticky" title="consen">
+                  <a className="main_sticky" title="Enfotrix">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
