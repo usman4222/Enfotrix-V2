@@ -15,7 +15,7 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-6">
               <div className="slider-content">
-                <h3> Work With Consen </h3>
+                <h3> Work With Enfotrix </h3>
                 <h1> Innovate Solution For </h1>
                 <h1>
                   {" "}
