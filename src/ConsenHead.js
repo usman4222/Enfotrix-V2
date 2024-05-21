@@ -4,7 +4,7 @@ const ConsenHead = () => {
     <Head>
       <meta charSet="UTF-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <title>Consen - Finance Consulting React Template</title>
+      <title>Enfotrix</title>
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       {/* Favicon */}
@@ -12,7 +12,7 @@ const ConsenHead = () => {
         rel="icon"
         type="image/png"
         sizes="56x56"
-        href="assets/images/fav-icon/icon.png"
+        href="assets/images/logo6.png"
       />
       {/* bootstrap CSS */}
       <link

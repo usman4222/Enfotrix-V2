@@ -40,7 +40,7 @@ const MobileMenu = () => {
             >
               <li>
                 <a href="#">Home </a>
-                <ul className="sub-menu" style={activeLi("Home")}>
+                {/* <ul className="sub-menu" style={activeLi("Home")}>
                   <li>
                     <Link legacyBehavior href="/">
                       IT Consulting
@@ -61,15 +61,15 @@ const MobileMenu = () => {
                       <a>Landing Page</a>
                     </Link>
                   </li>
-                </ul>
-                <a
+                </ul> */}
+                {/* <a
                   className="mean-expand"
                   href="#"
                   onClick={() => activeMenuSet("Home")}
                   style={{ fontSize: 18 }}
                 >
                   {activeBtn("Home")}
-                </a>
+                </a> */}
               </li>
               <li>
                 <a href="#">Company </a>
@@ -79,7 +79,7 @@ const MobileMenu = () => {
                       About Us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="service">
                       Our Service
                     </Link>
@@ -88,13 +88,13 @@ const MobileMenu = () => {
                     <Link legacyBehavior href="pricing">
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link legacyBehavior href="team">
                       Our Team
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="portfolio">
                       Portfolio
                     </Link>
@@ -103,17 +103,17 @@ const MobileMenu = () => {
                     <Link legacyBehavior href="portfolio-details">
                       Portfolio Details
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link legacyBehavior href="404">
                       404
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="contact">
                       Contact Us
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <a
                   className="mean-expand"
@@ -126,7 +126,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <a href="#">Services </a>
-                <ul className="sub-menu" style={activeLi("Services")}>
+                {/* <ul className="sub-menu" style={activeLi("Services")}>
                   <li>
                     <Link legacyBehavior href="service">
                       Our Service
@@ -137,15 +137,15 @@ const MobileMenu = () => {
                       Service Details
                     </Link>
                   </li>
-                </ul>
-                <a
+                </ul> */}
+                {/* <a
                   className="mean-expand"
                   href="#"
                   onClick={() => activeMenuSet("Services")}
                   style={{ fontSize: 18 }}
                 >
                   {activeBtn("Services")}
-                </a>
+                </a> */}
               </li>
               <li>
                 <Link legacyBehavior href="portfolio">
@@ -154,7 +154,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <a href="#">Blog </a>
-                <ul className="sub-menu" style={activeLi("Portfolio")}>
+                {/* <ul className="sub-menu" style={activeLi("Portfolio")}>
                   <li>
                     <Link legacyBehavior href="blog-grid">
                       Blog Gird
@@ -175,15 +175,15 @@ const MobileMenu = () => {
                       Blog Details
                     </Link>
                   </li>
-                </ul>
-                <a
+                </ul> */}
+                {/* <a
                   className="mean-expand"
                   href="#"
                   onClick={() => activeMenuSet("Portfolio")}
                   style={{ fontSize: 18 }}
                 >
                   {activeBtn("Portfolio")}
-                </a>
+                </a> */}
               </li>
               <li className="mean-last">
                 <Link legacyBehavior href="contact">
