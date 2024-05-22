@@ -1,8 +1,8 @@
+
 import Breadcumb from "@/src/components/Breadcumb";
 import Layout from "@/src/layout/Layout";
 import { useRef, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
-// import { useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from 'emailjs-com';
 
@@ -10,7 +10,6 @@ const Contact = () => {
 
   const form = useRef();
   const [hasError, setHasError] = useState(null);
-  // const navigate = useNavigate()
   const [data, setData] = useState({
     name: '',
     email: '',
@@ -18,7 +17,6 @@ const Contact = () => {
     phone: '',
     message: ''
   });
-
 
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const phonePattern = /^[0-9]{11}$/;
@@ -39,13 +37,8 @@ const Contact = () => {
     }
   };
 
-  const onbtn = () => {
-    console.log("btn clickied");
-  }
-
   const submitEmail = (e) => {
     e.preventDefault();
-    console.log("called");
 
     if (!emailPattern.test(data.email)) {
       toast.error('Please enter a valid email address.');
@@ -67,8 +60,7 @@ const Contact = () => {
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
-          if (toast.success('Success! We\'ll get back to you soon. Thank you!')) {
-          }
+          toast.success('Success! We\'ll get back to you soon. Thank you!');
           resetForm();
         },
         (error) => {
@@ -91,9 +83,6 @@ const Contact = () => {
   return (
     <Layout>
       <Breadcumb pageName={"Contact Us"} />
-      {/*==================================================*/}
-      {/* Start Appoinment Section */}
-      {/*===================================================*/}
       <div className="contact-us pt-90 pb-90">
         <div className="container">
           <div className="row">
@@ -102,12 +91,7 @@ const Contact = () => {
                 <div className="contact_title pb-4">
                   <h3>Get In Touch</h3>
                 </div>
-                <form
-                  ref={form} onSubmit={submitEmail}
-                // action="#"
-                // method="POST"
-                // id="dreamit-form"
-                >
+                <form ref={form} onSubmit={submitEmail}>
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form_box mb-30">
@@ -161,19 +145,17 @@ const Contact = () => {
                       <div className="form_box mb-30">
                         <textarea
                           name="message"
-                          id="message"
+                          id="projectIdea"
                           cols={30}
                           rows={10}
                           placeholder="Your Message"
-                          defaultValue={""}
                           value={data.message}
                           onChange={onChange}
                           required
                         />
                       </div>
                       <div className="quote_button">
-                        <button className="btn" onClick={onbtn} type="submit">
-                          {" "}
+                        <button className="btn" type="submit">
                           <i className="bi bi-gear" /> Free Consultant
                         </button>
                       </div>

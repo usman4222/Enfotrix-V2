@@ -120,12 +120,15 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mean-container .mean-bar::before {
-    color: #fff;
-    content: "Enfotrix";
-    font-size: 28px;
-    font-weight: 600;
-    left: 10px;
-    position: absolute;
-    top: 18px;
+  content: "";
+  background: url('../images/Logo1.png') no-repeat;
+  background-size: contain; 
+  display: block;
+  width: 90%; 
+  height: 50%; 
+  position: absolute;
+  top: 18px;
+  left: 10px;
 }
+
 
