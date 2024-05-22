@@ -367,7 +367,7 @@ const Index = () => {
                 <h2> What Say Our CEO, About</h2>
                 <h2>
                   {" "}
-                  Consen <span> Customers </span>
+                  Enfotrix <span> Customers </span>
                 </h2>
                 <div className="lines style-three pt-20 pb-10">
                   <div className="line" />
@@ -386,7 +386,7 @@ const Index = () => {
                 </p>
               </div>
               <div className="dreamit-ceo-title">
-                <h4> Philip Antrophy </h4>
+                <h4>Muhammad Mujahid </h4>
                 <span>SEO &amp; Founder</span>
               </div>
               <div className="about-button">
