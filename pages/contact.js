@@ -1,6 +1,93 @@
 import Breadcumb from "@/src/components/Breadcumb";
 import Layout from "@/src/layout/Layout";
+import { useRef, useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+// import { useNavigate } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
+import emailjs from 'emailjs-com';
+
 const Contact = () => {
+
+  const form = useRef();
+  const [hasError, setHasError] = useState(null);
+  // const navigate = useNavigate()
+  const [data, setData] = useState({
+    name: '',
+    email: '',
+    website: '',
+    phone: '',
+    message: ''
+  });
+
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const phonePattern = /^[0-9]{11}$/;
+
+  const onChange = (event) => {
+    const { name, value } = event.target;
+    setData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+
+    if (name === 'email' && !emailPattern.test(value)) {
+      setHasError('Please enter a valid email address.');
+    } else if (name === 'phone' && !phonePattern.test(value)) {
+      setHasError('Please enter a valid phone number of 11 digits.');
+    } else {
+      setHasError(null);
+    }
+  };
+
+  const onbtn = () => {
+    console.log("btn clickied");
+  }
+
+  const submitEmail = (e) => {
+    e.preventDefault();
+    console.log("called");
+
+    if (!emailPattern.test(data.email)) {
+      toast.error('Please enter a valid email address.');
+      return;
+    }
+
+    if (!phonePattern.test(data.phone)) {
+      toast.error('Please enter a valid phone number of 11 digits.');
+      return;
+    }
+
+    emailjs.send('service_31p2vdp', 'template_og2rtkf', {
+      from_name: data.name,
+      email: data.email,
+      website: data.website,
+      phone: data.phone,
+      message: data.message,
+    }, 'XohnXcZl3e1DVEBqg')
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          if (toast.success('Success! We\'ll get back to you soon. Thank you!')) {
+          }
+          resetForm();
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          toast.error('FAILED...', error.text);
+        }
+      );
+  };
+
+  const resetForm = () => {
+    setData({
+      name: '',
+      email: '',
+      website: '',
+      phone: '',
+      message: ''
+    });
+  };
+
   return (
     <Layout>
       <Breadcumb pageName={"Contact Us"} />
@@ -16,15 +103,22 @@ const Contact = () => {
                   <h3>Get In Touch</h3>
                 </div>
                 <form
-                  onSubmit={(e) => e.preventDefault()}
-                  action="#"
-                  method="POST"
-                  id="dreamit-form"
+                  ref={form} onSubmit={submitEmail}
+                // action="#"
+                // method="POST"
+                // id="dreamit-form"
                 >
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form_box mb-30">
-                        <input type="text" name="name" placeholder="Name" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                          value={data.name}
+                          onChange={onChange}
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -33,6 +127,9 @@ const Contact = () => {
                           type="email"
                           name="email"
                           placeholder="Email Address"
+                          value={data.email}
+                          onChange={onChange}
+                          required
                         />
                       </div>
                     </div>
@@ -42,12 +139,22 @@ const Contact = () => {
                           type="text"
                           name="phone"
                           placeholder="Phone Number"
+                          value={data.phone}
+                          onChange={onChange}
+                          required
                         />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="form_box mb-30">
-                        <input type="text" name="web" placeholder="Website" />
+                        <input
+                          type="text"
+                          name="website"
+                          placeholder="Website"
+                          value={data.website}
+                          onChange={onChange}
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -59,10 +166,13 @@ const Contact = () => {
                           rows={10}
                           placeholder="Your Message"
                           defaultValue={""}
+                          value={data.message}
+                          onChange={onChange}
+                          required
                         />
                       </div>
                       <div className="quote_button">
-                        <button className="btn" type="submit">
+                        <button className="btn" onClick={onbtn} type="submit">
                           {" "}
                           <i className="bi bi-gear" /> Free Consultant
                         </button>
@@ -137,6 +247,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </Layout>
   );
 };
