@@ -11,8 +11,8 @@ const ConsenHead = () => {
       <link
         rel="icon"
         type="image/png"
-        sizes="56x56"
-        href="assets/images/logo6.png"
+        sizes="700x700"
+        href="assets/images/en.png"
       />
       {/* bootstrap CSS */}
       <link

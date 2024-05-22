@@ -68,6 +68,7 @@ const Contact = () => {
           toast.error('FAILED...', error.text);
         }
       );
+    console.log('Form data:', data);
   };
 
   const resetForm = () => {
@@ -145,7 +146,8 @@ const Contact = () => {
                       <div className="form_box mb-30">
                         <textarea
                           name="message"
-                          id="projectIdea"
+                          type="text"
+                          // id="projectIdea"
                           cols={30}
                           rows={10}
                           placeholder="Your Message"
@@ -174,7 +176,7 @@ const Contact = () => {
                   <div className="cda-content-inner">
                     <h4>Company Location</h4>
                     <p>
-                      Enfotrix (Pvt.)Ltd Main , <br />
+                      Enfotrix (Pvt.) Ltd. <br />
                       zafarullah
                       chowk, Sargodha
                     </p>

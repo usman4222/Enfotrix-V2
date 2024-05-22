@@ -161,8 +161,7 @@ const DefaultFooter = () => {
               <div className="footer-bottom-content">
                 <div className="footer-bottom-content-copy">
                   <p>
-                    © 2023 <span>Enfotrix</span> all rights reserved. Design By
-                    Dream-IT.
+                    © 2023 <span>Enfotrix</span> all rights reserved.
                   </p>
                 </div>
               </div>
