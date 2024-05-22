@@ -724,7 +724,7 @@ const About = () => {
                 </a>
                 <div className="subscribe-title2">
                   <h1> +92 327 8700060 </h1>
-                  <p> example@gmail.com </p>
+                  <p> Enfotrix@gmail.com </p>
                 </div>
               </div>
             </div>

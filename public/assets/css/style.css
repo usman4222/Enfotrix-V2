@@ -427,7 +427,10 @@ ul.sub-menu li:hover a span {
 .consen_menu li a:hover:before {
   width: 101%;
 }
-
+.brand-thumb img{
+  width: 50%;
+  /* background: #000; */
+}
 .consen_nav_manu.sticky .logo_img {
   display: none;
 }
