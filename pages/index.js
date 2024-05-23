@@ -61,7 +61,7 @@ const Index = () => {
                   className="video-vemo-icon venobox vbox-item"
                   data-vbtype="youtube"
                   data-autoplay="true"
-                  href="https://www.youtube.com/watch?v=IwkhLBu8JUo"
+                  href="https://www.youtube.com/watch?v=dAaLDlPbVcM"
                 >
                   <i className="fa fa-play" />
                 </a>
@@ -116,7 +116,7 @@ const Index = () => {
                     <img src="assets/images/resource/service-icon.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Website <br/> Development </h2>
+                    <h2> Website <br /> Development </h2>
                   </div>
                   <div className="service-number">
                     <h1> 01 </h1>
@@ -145,7 +145,7 @@ const Index = () => {
                     <img src="assets/images/resource/service-icon2.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Mobile App <br/> Development </h2>
+                    <h2> Mobile App <br /> Development </h2>
                   </div>
                   <div className="service-number">
                     <h1> 02 </h1>
@@ -174,7 +174,7 @@ const Index = () => {
                     <img src="assets/images/resource/service-icon3.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Digital <br/> Marketing </h2>
+                    <h2> Digital <br /> Marketing </h2>
                   </div>
                   <div className="service-number">
                     <h1> 03 </h1>
@@ -203,7 +203,7 @@ const Index = () => {
                     <img src="assets/images/resource/service-icon.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Visa <br/> Consultancy </h2>
+                    <h2> Visa <br /> Consultancy </h2>
                   </div>
                   <div className="service-number">
                     <h1> 04 </h1>
@@ -387,13 +387,13 @@ const Index = () => {
               </div>
               <div className="dreamit-ceo-title">
                 <h4>Muhammad Mujahid </h4>
-                <span>SEO &amp; Founder</span>
+                <span>CEO &amp; Founder</span>
               </div>
-              <div className="about-button">
-                <Link legacyBehavior href="/testimonial">
+              <div className=" play-btn">
+                <Link legacyBehavior href="https://www.youtube.com/watch?v=qUrEInSfZWQ">
                   <a>
-                    {" "}
-                    Clients Review <i className="bi bi-plus" />{" "}
+                  {" "}
+                  CEO's Vission  <span ><i className="fa fa-play" /></span>{" "}
                   </a>
                 </Link>
               </div>

@@ -25,7 +25,7 @@ const DefaultHeader = () => {
               <DaskTopMenusMenus />
               <div className="header-button">
                 <Link legacyBehavior href="#">
-                  <a>Airlines Tickets</a>
+                  <a>Visa Consultancy</a>
                 </Link>
               </div>
             </nav>
