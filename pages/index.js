@@ -98,14 +98,14 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-4">
-              <div className="consen-button text-right">
+              {/* <div className="consen-button text-right">
                 <Link legacyBehavior href="/service">
                   <a>
                     {" "}
                     All Service <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row">
@@ -127,14 +127,14 @@ const Index = () => {
                       Advanced web solutions powered by Next.js, tailored to meet business goals{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -156,14 +156,14 @@ const Index = () => {
                       Delivering smooth mobile app solutions using both (Hybrid & Native) technologies{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -185,14 +185,14 @@ const Index = () => {
                       Meta-optimized for Google, our brand-building digital strategies boost online visibility{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -214,14 +214,14 @@ const Index = () => {
                       Expert visa consultancy for study abroad applications and airline tickets{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@ const Index = () => {
               <div className="dreamit-icon-title">
                 <h4>
                   {" "}
-                  We are Since <span>2007 to Present</span> in Sandigo, USA{" "}
+                  We are Since <span>2020 to Present</span> in Sargodha, Pakistan{" "}
                 </h4>
               </div>
               <div className="dreamit-icon-list">
@@ -304,7 +304,7 @@ const Index = () => {
           <div className="row counter-vip">
             <div className="col-lg-12">
               <div className="couter-top-title">
-                <h3> Consen Finished this Achivement in 7 Years </h3>
+                <h3> Enfotrix Finished this Achivement in 4 Years </h3>
               </div>
             </div>
             <div className="col-md-3 col-6">
@@ -813,7 +813,7 @@ const Index = () => {
           <div className="row pt-50">
             <div className="col-lg-12">
               <div className="dreamits-top-title">
-                <h3> More Then 5K+ Brands with work Consen</h3>
+                <h3> More Then 5K+ Brands with work Enfotrix</h3>
               </div>
             </div>
           </div>

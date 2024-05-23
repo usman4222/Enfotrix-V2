@@ -42,7 +42,7 @@ const Service = () => {
                     <img src="assets/images/resource/service-icon.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Interacture Capacity Planning </h2>
+                    <h2> Website <br /> Development </h2>
                   </div>
                   <div className="service-number">
                     <h1> 01 </h1>
@@ -50,18 +50,17 @@ const Service = () => {
                   <div className="em-service-text">
                     <p>
                       {" "}
-                      Dramatically cultivate from quality user centric growth
-                      strateges emerging{" "}
+                      Advanced web solutions powered by Next.js, tailored to meet business goals{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@ const Service = () => {
                     <img src="assets/images/resource/service-icon2.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> New Technology Services </h2>
+                    <h2> Mobile App <br /> Development </h2>
                   </div>
                   <div className="service-number">
                     <h1> 02 </h1>
@@ -80,18 +79,17 @@ const Service = () => {
                   <div className="em-service-text">
                     <p>
                       {" "}
-                      Dramatically cultivate from quality user centric growth
-                      strateges emerging{" "}
+                      Delivering smooth mobile app solutions using both (Hybrid & Native) technologies{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -102,7 +100,7 @@ const Service = () => {
                     <img src="assets/images/resource/service-icon3.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Cloud Computing Solutions </h2>
+                    <h2> Digital <br /> Marketing </h2>
                   </div>
                   <div className="service-number">
                     <h1> 03 </h1>
@@ -110,18 +108,17 @@ const Service = () => {
                   <div className="em-service-text">
                     <p>
                       {" "}
-                      Dramatically cultivate from quality user centric growth
-                      strateges emerging{" "}
+                      Meta-optimized for Google, our brand-building digital strategies boost online visibility{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -132,7 +129,7 @@ const Service = () => {
                     <img src="assets/images/resource/service-icon.png" alt />
                   </div>
                   <div className="em-service-title">
-                    <h2> Top Information Technology </h2>
+                    <h2> Visa <br /> Consultancy </h2>
                   </div>
                   <div className="service-number">
                     <h1> 04 </h1>
@@ -140,18 +137,17 @@ const Service = () => {
                   <div className="em-service-text">
                     <p>
                       {" "}
-                      Dramatically cultivate from quality user centric growth
-                      strateges emerging{" "}
+                      Expert visa consultancy for study abroad applications and airline tickets{" "}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

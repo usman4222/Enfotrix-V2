@@ -36,55 +36,55 @@ export const DaskTopMenusMenus = () => {
         </ul> */}
       </li>{" "}
       <li>
-        <a href="#">
+        <a href="/team">
           Company{" "}
-          <span>
+          {/* <span>
             <i className="fas fa-angle-down" />
-          </span>
+          </span> */}
         </a>
-        <ul className="sub-menu">
+        {/* <ul className="sub-menu">
           {" "}
           <li>
             <Link legacyBehavior href="/about">
               About Us
             </Link>
           </li>{" "}
-          {/* <li>
+          <li>
             <Link legacyBehavior href="service">
               Our Service
             </Link>
-          </li>{" "} */}
-          {/* <li>
+          </li>{" "}
+          <li>
             <Link legacyBehavior href="pricing">
               Pricing
             </Link>
-          </li>{" "} */}
+          </li>{" "}
           <li>
             <Link legacyBehavior href="/team">
               Our Team
             </Link>
           </li>{" "}
-          {/* <li>
+          <li>
             <Link legacyBehavior href="portfolio">
               Portfolio
             </Link>
-          </li>{" "} */}
-          {/* <li>
+          </li>{" "}
+          <li>
             <Link legacyBehavior href="portfolio-details">
               Portfolio Details
             </Link>
-          </li>{" "} */}
-          {/* <li>
+          </li>{" "}
+          <li>
             <Link legacyBehavior href="404">
               404
             </Link>
-          </li>{" "} */}
-          {/* <li>
+          </li>{" "}
+          <li>
             <Link legacyBehavior href="contact">
               Contact Us
             </Link>
-          </li> */}
-        </ul>
+          </li>
+        </ul> */}
       </li>{" "}
       <li>
         <a href="/service">
@@ -114,7 +114,7 @@ export const DaskTopMenusMenus = () => {
       </li>{" "}
       <li>
         <a href="/blog-grid">
-          Blog{" "}
+          Courses{" "}
           {/* <span>
             <i className="fas fa-angle-down" />
           </span> */}
