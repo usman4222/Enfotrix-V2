@@ -192,7 +192,7 @@ const Index2 = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="consen-section-title">
-                <h5> About Consen </h5>
+                <h5> About Enfotrix </h5>
                 <h2> We Are Global Stakeholder </h2>
                 <h2>
                   {" "}

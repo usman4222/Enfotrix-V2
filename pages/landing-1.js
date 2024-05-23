@@ -192,7 +192,7 @@ const Landing1 = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="consen-section-title">
-                <h5> About Consen </h5>
+                <h5> About Enfotrix </h5>
                 <h2> We Are Global Stakeholder </h2>
                 <h2>
                   {" "}
@@ -492,7 +492,7 @@ const Landing1 = () => {
             <div className="col-lg-7 col-md-6">
               <div className="consen-section-title white pb-50">
                 <h5> Testimonials </h5>
-                <h2> Consen Trusted Customers </h2>
+                <h2> Enfotrix Trusted Customers </h2>
                 <h2>
                   {" "}
                   Awesome <span> Reviews </span>

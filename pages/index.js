@@ -789,7 +789,7 @@ const Index = () => {
               <div className="dreamit-smart-title">
                 <h4>
                   {" "}
-                  For Choose <span>Consen</span> Before know who we are?{" "}
+                  For Choose <span>Enfotrix</span> Before know who we are?{" "}
                 </h4>
                 <p>
                   Monotonectally brand worldwide value before in seamless
