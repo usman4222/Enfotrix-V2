@@ -78,6 +78,8 @@ a.meanmenu-reveal{display:none}
 .mean-container .mean-bar::after {
   color: #ffffff;
   content: "MENU";
+  width: 90%; 
+  height: 50%; 
   font-size: 21px;
   left: 5%;
   position: absolute;
