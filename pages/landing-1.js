@@ -817,7 +817,7 @@ const Landing1 = () => {
                   <img src="assets/images/resource/b.png" alt />
                 </div>
                 <div className="process-title">
-                  <h3> System Design </h3>
+                  <h3>  </h3>
                   <p>
                     Collaboratively initiate strategic ex formulate based
                     internal.

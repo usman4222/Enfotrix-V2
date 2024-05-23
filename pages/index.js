@@ -389,11 +389,11 @@ const Index = () => {
                 <h4>Muhammad Mujahid </h4>
                 <span>CEO &amp; Founder</span>
               </div>
-              <div className=" play-btn">
+              <div className="play-btn">
                 <Link legacyBehavior href="https://www.youtube.com/watch?v=qUrEInSfZWQ">
                   <a>
-                  {" "}
-                  CEO's Vission  <span ><i className="fa fa-play" /></span>{" "}
+                    {" "}
+                    CEO's Vision  <i className="fa fa-play" />{" "}
                   </a>
                 </Link>
               </div>
@@ -425,7 +425,7 @@ const Index = () => {
                 <h2> We Serve the Best Works</h2>
                 <h2>
                   {" "}
-                  View <span> Case Studies </span>
+                  View <span> our Development </span>
                 </h2>
               </div>
             </div>
@@ -453,66 +453,31 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/case2.png" alt />
+                    <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a> Consulting for Business Organizations</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
-                      >
-                        <i className="fa fa-play" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="case-study-single-box">
-                  <div className="case-study-thumb">
-                    <img src="assets/images/project/case3.png" alt />
-                    <div className="case-study-content">
-                      <div className="case-study-title">
-                        <h6> Consulting </h6>
-                        <h3>
-                          {" "}
-                          <Link legacyBehavior href="/portfolio-details">
-                            <a> Strategy and Planning Building Idea</a>
-                          </Link>
-                        </h3>
-                      </div>
-                      <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
-                          <a>
-                            Read More <i className="bi bi-plus" />{" "}
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="video-icon style-two">
-                      <a
-                        className="video-vemo-icon venobox vbox-item"
-                        data-vbtype="youtube"
-                        data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -526,28 +491,28 @@ const Index = () => {
                     <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a> Corporate Finance for helpfulness Markets</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -558,31 +523,31 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/case2.png" alt />
+                    <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a> Consulting for Business Organizations</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -593,31 +558,31 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/case3.png" alt />
+                    <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a> Strategy and Planning Building Idea</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -628,31 +593,31 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/case2.png" alt />
+                    <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a> Consulting for Business Organizations</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -663,31 +628,66 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/case3.png" alt />
+                    <img src="assets/images/project/case1.png" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
-                        <h6> Consulting </h6>
+                        <h6> Mobile App </h6>
                         <h3>
                           {" "}
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Strategy and Planning Building Idea</a>
+                            <a> Food Delivery & Restaurant App</a>
                           </Link>
                         </h3>
                       </div>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <Link legacyBehavior href="/portfolio-details">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="video-icon style-two">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
+                      >
+                        <i className="fa fa-play" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="case-study-single-box">
+                  <div className="case-study-thumb">
+                    <img src="assets/images/project/case1.png" alt />
+                    <div className="case-study-content">
+                      <div className="case-study-title">
+                        <h6> Mobile App </h6>
+                        <h3>
+                          {" "}
+                          <Link legacyBehavior href="/portfolio-details">
+                            <a>Food Delivery & Restaurant App</a>
+                          </Link>
+                        </h3>
+                      </div>
+                      {/* <div className="case-button">
+                        <Link legacyBehavior href="/portfolio-details">
+                          <a>
+                            Read More <i className="bi bi-plus" />{" "}
+                          </a>
+                        </Link>
+                      </div> */}
+                    </div>
+                    <div className="video-icon style-two">
+                      <a
+                        className="video-vemo-icon venobox vbox-item"
+                        data-vbtype="youtube"
+                        data-autoplay="true"
+                        href="https://www.youtube.com/watch?v=_C5hXgUP-TU"
                       >
                         <i className="fa fa-play" />
                       </a>
@@ -717,9 +717,9 @@ const Index = () => {
                     </div>
                     <div className="process-title">
                       <h3>
-                        Idea <span> Generate </span>
+                        Study  <span> Abroad </span>
                       </h3>
-                      <p>Appropriately enhance data centered innovation</p>
+                      <p>Global Education Opportunities Await</p>
                     </div>
                   </div>
                 </div>
@@ -731,9 +731,9 @@ const Index = () => {
                     <div className="process-title">
                       <h3>
                         {" "}
-                        System <span> Design </span>
+                        IELTS  /<span> PTE </span>
                       </h3>
-                      <p>Appropriately enhance data centered innovation</p>
+                      <p>Master English Proficiency Today</p>
                     </div>
                   </div>
                 </div>
@@ -745,9 +745,9 @@ const Index = () => {
                     <div className="process-title">
                       <h3>
                         {" "}
-                        24/7 <span> Support </span>
+                        Work  <span> Visa </span>
                       </h3>
-                      <p>Appropriately enhance data centered innovation</p>
+                      <p>Unlock Your Work Abroad</p>
                     </div>
                   </div>
                 </div>
@@ -759,9 +759,9 @@ const Index = () => {
                     <div className="process-title">
                       <h3>
                         {" "}
-                        Sales <span> Generate </span>
+                        Airline  <span> Ticketing </span>
                       </h3>
-                      <p>Appropriately enhance data centered innovation</p>
+                      <p>Seamless Travel Booking Solutions</p>
                     </div>
                   </div>
                 </div>
@@ -780,7 +780,7 @@ const Index = () => {
                 <h2> The Fatest Way To Achieve </h2>
                 <h2>
                   {" "}
-                  Technology <span> Consulting </span>
+                  Immigration <span> Consulting </span>
                 </h2>
               </div>
               <div className="lines style-three pt-30 pb-10">
@@ -792,19 +792,16 @@ const Index = () => {
                   For Choose <span>Enfotrix</span> Before know who we are?{" "}
                 </h4>
                 <p>
-                  Monotonectally brand worldwide value before in seamless
-                  process data Collaboratively initiate strategic expertise
-                  after functionalized models in. Synergistically synthesize
-                  front-end convergence whereas resource tosynergy.
-                  Collaboratively the expedite focused architectures rather than
-                  resources. Enthusiastically extensive.
+                  Embark on a journey of endless possibilities with Enfotrix, your ultimate destination
+                  for education, work, and travel abroad. Before making your decision, discover who we
+                  are and how we can empower you to fulfill your international aspirations.
                 </p>
               </div>
               <div className="about-button">
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="#">
                   <a>
                     {" "}
-                    More About <i className="bi bi-plus" />{" "}
+                    Visit Now <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
               </div>
@@ -813,7 +810,7 @@ const Index = () => {
           <div className="row pt-50">
             <div className="col-lg-12">
               <div className="dreamits-top-title">
-                <h3> More Then 5K+ Brands with work Enfotrix</h3>
+                <h3> More Then 20+ Universities work with Enfotrix</h3>
               </div>
             </div>
           </div>
@@ -822,7 +819,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="brand-single-box">
                   <div className="brand-thumb">
-                    <img src="assets/images/resource/allian.png" alt />
+                    <img src="assets/images/resource/allian.gif" alt />
                   </div>
                 </div>
               </SwiperSlide>
@@ -891,10 +888,10 @@ const Index = () => {
             <div className="col-md-6">
               <div className="extra-animation-div">
                 <div className="consen-section-title white">
-                  <h2> Join the Community to learn </h2>
+                  <h2> Transforming Students into   </h2>
                   <h2>
                     {" "}
-                    About our <span>Company</span>
+                    IT Industry <span>Professionals</span>
                   </h2>
                 </div>
                 <div className="lines style-three upper pt-30 pb-10">
@@ -902,9 +899,7 @@ const Index = () => {
                 </div>
                 <div className="dreamit-smart-title">
                   <p className="slill-text">
-                    Continually generate 2.0 communities and client-focused
-                    products. In synergize strategic manufactured products
-                    whereas levera.
+                    We train students with essential IT skills, launching their careers in Pakistan's leading tech companies..
                   </p>
                 </div>
               </div>
@@ -912,22 +907,24 @@ const Index = () => {
             </div>
             <div className="col-md-6">
               <div className="slill-single-thumb mt-4 mt-lg-0 pl-50 ml-1">
-                <img src="assets/images/resource/skill.png" alt />
+                <img src="assets/images/resource/skill1.jpg" alt />
                 {/* thumb content */}
                 <div className="skill-thumb-content">
                   <div className="skill-title">
-                    <h3 className="counter"> 17 </h3>
+                    <h3 className="counter">
+                      <Counter end={500} />
+                    </h3>
                     <span>+</span>
-                    <h5> YEARS EXPERIENCE </h5>
+                    <h5> TRAINED STUDENTS </h5>
                   </div>
                 </div>
                 {/* skill shape */}
-                <div className="skill-shape dance">
+                {/* <div className="skill-shape dance">
                   <img src="assets/images/resource/skill-shape.png" alt />
                 </div>
                 <div className="skill-shape1 bounce-animate2">
                   <img src="assets/images/resource/all-shape.png" alt />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

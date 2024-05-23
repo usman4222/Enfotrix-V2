@@ -1924,6 +1924,59 @@ button.icons {
   margin-top: 38px;
 }
 
+.about-button a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #fff;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+/* .ceo-play-btn i{
+  background: #000;
+  font-size: 10px;
+} */
+
+.about-button a i {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 32px;
+  border-radius: 25px;
+  text-align: center;
+  background: #fff;
+  color: #ff3b00;
+  display: inline-block;
+  margin-left: 14px;
+  position: relative;
+  top: 3px;
+  transition: 0.5s;
+}
+
+.about-button a:hover {
+  color: #ff3b00;
+}
+
+.about-button a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.about-button a:hover i {
+  background: #ff3b00;
+  color: #fff;
+}
+
+
+
+
+
+
+
 .play-btn a {
   padding: 9px 14px 14px 42px;
   font-family: "Fira Sans";
@@ -1939,18 +1992,6 @@ button.icons {
   margin-top: 38px;
 }
 
-.about-button a:before {
-  position: absolute;
-  content: "";
-  z-index: -1;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 0;
-  background: #fff;
-  border-radius: 30px;
-  transition: 0.5s;
-}
 .play-btn a:before {
   position: absolute;
   content: "";
@@ -1964,24 +2005,8 @@ button.icons {
   transition: 0.5s;
 }
 
-.play-btn a i {
-  font-size: 10px;
-  width: 30px;
-  height: 30px;
-  line-height: 31px;
-  border-radius: 25px;
-  text-align: center;
-  background: #fff;
-  color: #ff3b00;
-  display: inline-block;
-  margin-left: 14px;
-  position: relative;
-  top: 3px;
-  transition: 0.5s;
-}
-
-.about-button a i {
-  font-size: 20px;
+.play-btn i {
+  font-size: 16px;
   width: 30px;
   height: 30px;
   line-height: 32px;
@@ -2006,20 +2031,6 @@ button.icons {
 }
 
 .play-btn a:hover i {
-  background: #ff3b00;
-  color: #fff;
-}
-
-.about-button a:hover {
-  color: #ff3b00;
-}
-
-.about-button a:hover:before {
-  width: 100%;
-  left: 0;
-}
-
-.about-button a:hover i {
   background: #ff3b00;
   color: #fff;
 }
@@ -2534,6 +2545,7 @@ p.about-text1 {
   line-height: 32px;
   font-weight: 600;
   color: #fff;
+  padding-bottom: 30px;
 }
 
 .case-study-title h3 a {
@@ -4229,7 +4241,10 @@ p.slill-text {
   position: relative;
   z-index: 1;
 }
-
+.slill-single-thumb img{
+  width: 120%;
+  border-radius: 10px;
+}
 .skill-thumb-content {
   position: absolute;
   bottom: 0;

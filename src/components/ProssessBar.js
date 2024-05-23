@@ -1,7 +1,7 @@
 const ProssessBar = () => {
   return (
     <div className="prossess-ber-plugin pt-20">
-      <span className="prosses-bar">Business Strategy</span>
+      <span className="prosses-bar">Web Developers</span>
       <div id="bar1" className="barfiller">
         <div className="tipWrap" style={{ display: "inline" }}>
           <span
@@ -24,7 +24,7 @@ const ProssessBar = () => {
           }}
         />
       </div>
-      <span className="prosses-bar">Technology Consulting</span>
+      <span className="prosses-bar">Android Developers</span>
       <div id="bar2" className="barfiller">
         <div className="tipWrap" style={{ display: "inline" }}>
           <span
@@ -47,7 +47,7 @@ const ProssessBar = () => {
           }}
         />
       </div>
-      <span className="prosses-bar">Product Development</span>
+      <span className="prosses-bar">Graphic Designers</span>
       <div id="bar3" className="barfiller">
         <div className="tipWrap" style={{ display: "inline" }}>
           <span
