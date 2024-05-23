@@ -113,7 +113,7 @@ export const DaskTopMenusMenus = () => {
         </Link>
       </li>{" "}
       <li>
-        <a href="/blog-grid">
+        <a href="#">
           Courses{" "}
           {/* <span>
             <i className="fas fa-angle-down" />

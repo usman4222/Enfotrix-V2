@@ -953,7 +953,7 @@ const Index = () => {
                 <Link legacyBehavior href="/blog-grid">
                   <a>
                     {" "}
-                    View all Blog <i className="bi bi-plus" />{" "}
+                    View all Courses <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
               </div>
@@ -965,13 +965,13 @@ const Index = () => {
                 <div className="single-blog-thumb">
                   <img src="assets/images/resource/blog1.png" alt />
                   <div className="blog-top-button">
-                    <a href="#"> GRAPHIC </a>
+                    <a href="#"> GRAPHIC Design </a>
                   </div>
                 </div>
                 <div className="em-blog-content">
-                  <div className="meta-blog-text">
+                  {/* <div className="meta-blog-text">
                     <p> August 25, 2023 </p>
-                  </div>
+                  </div> */}
                   <div className="em-blog-title">
                     <h2>
                       {" "}
@@ -980,19 +980,19 @@ const Index = () => {
                       </Link>{" "}
                     </h2>
                   </div>
-                  <div className="em-blog-icon">
+                  {/* <div className="em-blog-icon">
                     <div className="em-blog-thumb">
                       <img src="assets/images/resource/blog-icon.png" alt />
                     </div>
                     <div className="em-blog-icon-title">
                       <h6> Alex Collins </h6>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="blog-button">
                     <Link legacyBehavior href="/blog-details">
                       <a>
                         {" "}
-                        Learn More <i className="bi bi-plus" />{" "}
+                        Join Now <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
                   </div>
@@ -1004,13 +1004,13 @@ const Index = () => {
                 <div className="single-blog-thumb">
                   <img src="assets/images/resource/blog2.png" alt />
                   <div className="blog-top-button">
-                    <a href="#"> DEVELOPMENT </a>
+                    <a href="#">WEB DEVELOPMENT </a>
                   </div>
                 </div>
                 <div className="em-blog-content">
-                  <div className="meta-blog-text">
+                  {/* <div className="meta-blog-text">
                     <p> August 21, 2023 </p>
-                  </div>
+                  </div> */}
                   <div className="em-blog-title">
                     <h2>
                       {" "}
@@ -1019,19 +1019,19 @@ const Index = () => {
                       </Link>{" "}
                     </h2>
                   </div>
-                  <div className="em-blog-icon">
+                  {/* <div className="em-blog-icon">
                     <div className="em-blog-thumb">
                       <img src="assets/images/resource/blog-icon.png" alt />
                     </div>
                     <div className="em-blog-icon-title">
                       <h6> Julia Moris </h6>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="blog-button">
                     <Link legacyBehavior href="/blog-details">
                       <a>
                         {" "}
-                        Learn More <i className="bi bi-plus" />{" "}
+                        Join Now <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
                   </div>
@@ -1043,13 +1043,13 @@ const Index = () => {
                 <div className="single-blog-thumb">
                   <img src="assets/images/resource/blog3.png" alt />
                   <div className="blog-top-button">
-                    <a href="#"> DESIGN </a>
+                    <a href="#"> Mobile App Development </a>
                   </div>
                 </div>
                 <div className="em-blog-content">
-                  <div className="meta-blog-text">
+                  {/* <div className="meta-blog-text">
                     <p> August 20, 2023 </p>
-                  </div>
+                  </div> */}
                   <div className="em-blog-title">
                     <h2>
                       {" "}
@@ -1058,19 +1058,19 @@ const Index = () => {
                       </Link>
                     </h2>
                   </div>
-                  <div className="em-blog-icon">
+                  {/* <div className="em-blog-icon">
                     <div className="em-blog-thumb">
                       <img src="assets/images/resource/blog-icon.png" alt />
                     </div>
                     <div className="em-blog-icon-title">
                       <h6> Amantha </h6>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="blog-button">
                     <Link legacyBehavior href="/blog-details">
                       <a>
                         {" "}
-                        Learn More <i className="bi bi-plus" />{" "}
+                        Join Now <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
                   </div>
