@@ -8,7 +8,7 @@ const Footer1 = () => {
           <div className="row ">
             <div className="col-lg-6 col-md-6">
               <div className="subscribe-title">
-                <h1>Subscribe to our Newsletter</h1>
+                <h1>Join our Training Programs</h1>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
@@ -78,7 +78,7 @@ const Footer1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-6">
+            <div className="col-lg-4 col-6">
               <div className="widget widget-nav-menu">
                 <h4 className="widget-title">Company</h4>
                 <div className="menu-quick-link-content">
@@ -87,7 +87,7 @@ const Footer1 = () => {
                       <a href="#"> Home </a>
                     </li>
                     <li>
-                      <a href="#"> About U s</a>
+                      <a href="#"> About Us</a>
                     </li>
                     <li>
                       <a href="#"> Contact Us </a>
@@ -102,31 +102,31 @@ const Footer1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-6">
+            <div className="col-lg-4 col-6">
               <div className="widget widget-nav-menu">
                 <h4 className="widget-title"> Services </h4>
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <a href="#"> Strategy &amp; Planing </a>
+                      <a href="#"> Web Development </a>
                     </li>
                     <li>
-                      <a href="#"> Consumer Market </a>
+                      <a href="#"> Graphic Design </a>
                     </li>
                     <li>
-                      <a href="#"> Data Analysis </a>
+                      <a href="#"> Mobile App Development </a>
                     </li>
                     <li>
-                      <a href="#"> Corporate Finance </a>
+                      <a href="#"> Digital Marketing </a>
                     </li>
                     <li>
-                      <a href="#"> Market Research </a>
+                      <a href="#"> Visa Consultancy </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div id="em-recent-post-widget" className="mt-5 mt-sm-0">
                 <div className="single-widget-item">
                   <h4 className="widget-title">Popular Posts</h4>
@@ -168,7 +168,7 @@ const Footer1 = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="foorer-shape">
             <div className="footer-thumb">

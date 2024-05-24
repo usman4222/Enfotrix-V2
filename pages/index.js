@@ -389,14 +389,14 @@ const Index = () => {
                 <h4>Muhammad Mujahid </h4>
                 <span>CEO &amp; Founder</span>
               </div>
-              <div className="play-btn">
+              {/* <div className="play-btn">
                 <Link legacyBehavior href="https://www.youtube.com/watch?v=qUrEInSfZWQ">
                   <a>
                     {" "}
                     CEO's Vision  <i className="fa fa-play" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="dreamit-about-thumb1">
@@ -965,7 +965,7 @@ const Index = () => {
                 <div className="single-blog-thumb">
                   <img src="assets/images/resource/blog1.png" alt />
                   <div className="blog-top-button">
-                    <a href="#"> GRAPHIC Design </a>
+                    <a href="#"> GRAPHIC DESIGN </a>
                   </div>
                 </div>
                 <div className="em-blog-content">
@@ -976,7 +976,7 @@ const Index = () => {
                     <h2>
                       {" "}
                       <Link legacyBehavior href="/blog-details">
-                        <a> Popular Consultants are big Meetup 2023 </a>
+                        <a> Master the Art of Visual Creativity </a>
                       </Link>{" "}
                     </h2>
                   </div>
@@ -1015,7 +1015,7 @@ const Index = () => {
                     <h2>
                       {" "}
                       <Link legacyBehavior href="/blog-details">
-                        <a> How to Increase Business Products Sales </a>
+                        <a> Learn to Build Interactive Websites Effortlessly </a>
                       </Link>{" "}
                     </h2>
                   </div>
@@ -1043,7 +1043,7 @@ const Index = () => {
                 <div className="single-blog-thumb">
                   <img src="assets/images/resource/blog3.png" alt />
                   <div className="blog-top-button">
-                    <a href="#"> Mobile App Development </a>
+                    <a href="#"> MOBILE APP DEVELOPMENT </a>
                   </div>
                 </div>
                 <div className="em-blog-content">
@@ -1054,7 +1054,7 @@ const Index = () => {
                     <h2>
                       {" "}
                       <Link legacyBehavior href="/blog-details">
-                        <a> Top 10 Most Populars Google Chrome app</a>
+                        <a> Create Innovative Mobile Applications</a>
                       </Link>
                     </h2>
                   </div>
