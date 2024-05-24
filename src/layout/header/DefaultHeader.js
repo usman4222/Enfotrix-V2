@@ -24,8 +24,8 @@ const DefaultHeader = () => {
             <nav className="consen_menu">
               <DaskTopMenusMenus />
               <div className="header-button">
-                <Link legacyBehavior href="#">
-                  <a>Visa Consultancy</a>
+                <Link legacyBehavior href="https://tour-and-travel-website-1.vercel.app/">
+                  <a target="_blank" rel="noopener noreferrer">Visa Consultancy</a>
                 </Link>
               </div>
             </nav>

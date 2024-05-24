@@ -189,7 +189,7 @@ const Contact = () => {
                   <div className="cda-content-inner">
                     <h4>Telephone Number</h4>
                     <p>
-                      +92 327 8700060 <br />
+                    +92 315 5658095<br />
                       {/* +880 636 524 265,{" "} */}
                     </p>
                   </div>

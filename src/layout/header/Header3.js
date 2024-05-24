@@ -21,7 +21,7 @@ const Header3 = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fas fa-phone" /> +880 320 432 242
+                      <i className="fas fa-phone" /> +923155658095
                     </a>
                   </li> 
                 </ul>
