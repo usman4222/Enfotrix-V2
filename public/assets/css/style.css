@@ -52,27 +52,33 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
   background: #14212a;
   padding: 10px 0;
 }
+
 .header-top-address ul li {
   list-style: none;
   display: inline-block;
   margin-right: 25px;
 }
+
 .header-top-address ul li a {
   font-size: 15px;
   color: #fff;
 }
+
 .header-top-address ul li span {
   font-size: 15px;
   color: #fff;
 }
+
 .header-top-address ul li i {
   margin-right: 5px;
   color: #fff;
   font-size: 15px;
 }
+
 .header-top-social {
   text-align: right;
 }
+
 .header-top-social a {
   display: inline-block;
   font-size: 15px;
@@ -80,9 +86,11 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
   margin-left: 14px;
   transition: 0.5s;
 }
+
 .header-top-social a:hover {
   color: #ff3c00;
 }
+
 .header_top_menu {
   background: #141323;
   height: 61px;
@@ -203,13 +211,13 @@ nav.consen_menu {
   display: inline-block;
 }
 
-.consen_menu > ul > li {
+.consen_menu>ul>li {
   display: inline-block;
   position: relative;
   z-index: 1;
 }
 
-.consen_menu > ul > li > a {
+.consen_menu>ul>li>a {
   display: block;
   margin: 30px 10px;
   -webkit-transition: 0.5s;
@@ -226,7 +234,7 @@ nav.consen_menu span {
   opacity: 0.5;
 }
 
-.consen_menu > ul > li > a:hover {
+.consen_menu>ul>li>a:hover {
   color: #ff3c00;
 }
 
@@ -294,7 +302,7 @@ nav.consen_menu span {
   text-align: left;
 }
 
-.style-two .consen_menu > ul > li > a {
+.style-two .consen_menu>ul>li>a {
   color: #232323;
 }
 
@@ -302,7 +310,7 @@ nav.consen_menu span {
   padding-left: 25px;
 }
 
-.style-two .consen_menu > ul > li > a:hover {
+.style-two .consen_menu>ul>li>a:hover {
   color: #ff3c00;
 }
 
@@ -310,9 +318,11 @@ nav.consen_menu span {
 .consen_nav_manu.style-three {
   margin-bottom: 0;
 }
+
 .consen_nav_manu.style-three.sticky {
   background: #fff !important;
 }
+
 /*** Sub Menu Style ***/
 .consen_menu ul .sub-menu {
   position: absolute;
@@ -331,7 +341,7 @@ nav.consen_menu span {
   opacity: 0;
 }
 
-.consen_menu ul li:hover > .sub-menu {
+.consen_menu ul li:hover>.sub-menu {
   visibility: visible;
   top: 100%;
   opacity: 1;
@@ -357,10 +367,10 @@ nav.consen_menu span {
   color: #211e3b !important;
 }
 
-.consen_menu ul .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+.consen_menu ul .sub-menu li:hover>a,
+.consen_menu ul .sub-menu .sub-menu li:hover>a,
+.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.consen_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
   background: #ff3c00;
   color: #fff !important;
 }
@@ -373,7 +383,7 @@ nav.consen_menu span {
   visibility: hidden;
 }
 
-.consen_menu ul .sub-menu li:hover > .sub-menu {
+.consen_menu ul .sub-menu li:hover>.sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
@@ -392,7 +402,7 @@ nav.consen_menu span {
   visibility: hidden;
 }
 
-.consen_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+.consen_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
@@ -418,7 +428,7 @@ ul.sub-menu li:hover a span {
   position: relative;
 }
 
-.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
@@ -427,13 +437,16 @@ ul.sub-menu li:hover a span {
 .consen_menu li a:hover:before {
   width: 101%;
 }
-.brand-thumb img{
+
+.brand-thumb img {
   width: 50%;
   /* background: #000; */
 }
+
 .consen_nav_manu.sticky .logo_img {
   display: none;
 }
+
 .main_sticky {
   display: none;
 }
@@ -461,17 +474,20 @@ ul.sub-menu li:hover a span {
 }
 
 /*Sub menu style three*/
-.consen_nav_manu.style-three .consen_menu > ul > li > a {
+.consen_nav_manu.style-three .consen_menu>ul>li>a {
   color: #232323;
   font-weight: 500;
 }
+
 .consen_nav_manu.style-three .header-button a {
   border-radius: 0;
   border: 1px solid #ff3c00;
 }
+
 .consen_nav_manu.style-three .header-button a:before {
   border-radius: 0;
 }
+
 .consen_nav_manu.style-three .header-button a:hover {
   border: 1px solid #10102e;
 }
@@ -660,9 +676,11 @@ ul.sub-menu li:hover a span {
   padding: 7px;
   transform: translate(-50%, -50%);
 }
+
 .ceo-play {
   background: #000;
 }
+
 .video-icon a {
   width: 60px;
   height: 60px;
@@ -1867,6 +1885,7 @@ button.icons {
 .feature-area.style-two .dreamit-icon-list ul li i {
   line-height: 22px;
 }
+
 /* Feature Area New Style */
 
 .feature-area.new-style {
@@ -1936,6 +1955,7 @@ button.icons {
   border-radius: 30px;
   transition: 0.5s;
 }
+
 /* .ceo-play-btn i{
   background: #000;
   font-size: 10px;
@@ -2497,13 +2517,11 @@ p.about-text1 {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-    0deg,
-    rgba(3, 4, 34, 0.902) 0%,
-    rgba(3, 4, 34, 0.902) 24%,
-    rgba(3, 3, 33, 0) 62%,
-    rgba(3, 3, 33, 0) 100%
-  );
+  background-image: linear-gradient(0deg,
+      rgba(3, 4, 34, 0.902) 0%,
+      rgba(3, 4, 34, 0.902) 24%,
+      rgba(3, 3, 33, 0) 62%,
+      rgba(3, 3, 33, 0) 100%);
   border-radius: 3px;
 }
 
@@ -2587,13 +2605,11 @@ p.about-text1 {
 }
 
 .case-study-thumb:hover:before {
-  background-image: linear-gradient(
-    0deg,
-    rgba(255, 59, 0, 0.902) 0%,
-    rgba(255, 59, 0, 0.902) 24%,
-    rgba(255, 59, 0, 0) 62%,
-    rgba(255, 59, 0, 0) 100%
-  );
+  background-image: linear-gradient(0deg,
+      rgba(255, 59, 0, 0.902) 0%,
+      rgba(255, 59, 0, 0.902) 24%,
+      rgba(255, 59, 0, 0) 62%,
+      rgba(255, 59, 0, 0) 100%);
 }
 
 /*case study shape*/
@@ -2999,6 +3015,7 @@ p.choose-text1 {
 .single-portfolio:hover .portfolio-thumb:before {
   opacity: 1;
 }
+
 .portfolio-thumb img {
   width: 100%;
   border-radius: 5px;
@@ -3231,8 +3248,7 @@ p.choose-text1 {
   margin-right: 10px;
 }
 
-.testimonial-area.style-two
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.testimonial-area.style-two .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 14px;
   height: 14px;
   border-radius: 6px;
@@ -3901,9 +3917,11 @@ a.active {
   background-size: cover;
   background-position: center center;
 }
+
 .faq-area.new-style:before {
   display: none;
 }
+
 .faq-area.new-style .accordion li a {
   padding: 16px 20px 16px 30px;
   border-radius: 0;
@@ -4241,10 +4259,12 @@ p.slill-text {
   position: relative;
   z-index: 1;
 }
-.slill-single-thumb img{
+
+.slill-single-thumb img {
   width: 120%;
   border-radius: 10px;
 }
+
 .skill-thumb-content {
   position: absolute;
   bottom: 0;
@@ -4609,6 +4629,50 @@ h4.widget-title:before {
   transition: 0.5s;
 }
 
+h4.service-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+h4.service-title:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 42px;
+  background: #ff3c00;
+  width: 50px;
+  height: 2px;
+  transition: 0.5s;
+}
+
+h4.company-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4.company-title:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  background: #ff3c00;
+  width: 50px;
+  height: 2px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+
+
 .company-info-desc p {
   color: #fff;
   padding: 15px 0 14px;
@@ -4695,6 +4759,35 @@ ul.footer-menu li a {
   font-family: "Fira Sans";
   color: #fff;
   transition: 0.5s;
+  text-align: right;
+}
+
+ul.service-menu li {
+  display: block;
+  list-style: none;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+ul.service-menu li a {
+  font-family: "Fira Sans";
+  color: #fff;
+  transition: 0.5s;
+
+}
+
+ul.company-menu li {
+  display: block;
+  list-style: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+ul.company-menu li a {
+  font-family: "Fira Sans";
+  color: #fff;
+  transition: 0.5s;
+
 }
 
 /*recent post image*/
@@ -5468,6 +5561,7 @@ span.fill {
 }
 
 @keyframes ripple {
+
   0%,
   35% {
     -webkit-transform: scale(0);
@@ -6670,6 +6764,17 @@ ul.tabs-inner-list li i {
   position: relative;
 }
 
+.service-title {
+  margin-bottom: 45px;
+  position: relative;
+  text-align: right;
+}
+
+.company-title {
+  margin-bottom: 45px;
+  position: relative;
+  text-align: center;
+}
 .widget-title h2 {
   margin-top: 0;
 }

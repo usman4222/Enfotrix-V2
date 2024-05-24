@@ -80,9 +80,9 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-4 col-6">
               <div className="widget widget-nav-menu">
-                <h4 className="widget-title">Company</h4>
+                <h4 className="company-title">Company</h4>
                 <div className="menu-quick-link-content">
-                  <ul className="footer-menu">
+                  <ul className="company-menu">
                     <li>
                       <a href="#"> Home </a>
                     </li>
@@ -93,10 +93,10 @@ const Footer1 = () => {
                       <a href="#"> Contact Us </a>
                     </li>
                     <li>
-                      <a href="#"> Service </a>
+                      <a href="#"> Our Team </a>
                     </li>
                     <li>
-                      <a href="#"> Our Team </a>
+                      <a href="#"> Service </a>
                     </li>
                   </ul>
                 </div>
@@ -104,9 +104,9 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-4 col-6">
               <div className="widget widget-nav-menu">
-                <h4 className="widget-title"> Services </h4>
+                <h4 className="service-title"> Services </h4>
                 <div className="menu-quick-link-content">
-                  <ul className="footer-menu">
+                  <ul className="service-menu">
                     <li>
                       <a href="#"> Web Development </a>
                     </li>
